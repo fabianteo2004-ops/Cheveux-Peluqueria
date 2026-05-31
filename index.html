@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cheveux Peluquería & Estética — Madrid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">Cheveux</div>
+    <ul class="nav__links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#precios">Precios</a></li>
+      <li><a href="#horario">Horario</a></li>
+      <li><a href="#contacto" class="nav__cta">Reservar</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#servicios" class="mob-link">Servicios</a></li>
+      <li><a href="#precios" class="mob-link">Precios</a></li>
+      <li><a href="#horario" class="mob-link">Horario</a></li>
+      <li><a href="#contacto" class="mob-link">Reservar</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80" alt="Interior salón de peluquería" class="hero__img" />
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content reveal-hero">
+      <p class="hero__eyebrow">Peluquería & Estética · Madrid</p>
+      <h1 class="hero__title">Cheveux</h1>
+      <p class="hero__subtitle">Donde el cuidado personal se convierte en arte</p>
+      <a href="#contacto" class="btn btn--light">Pedir cita &darr;</a>
+    </div>
+    <div class="hero__scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro section">
+    <div class="container">
+      <div class="intro__grid">
+        <div class="intro__text reveal">
+          <span class="label">Quiénes somos</span>
+          <h2>Tu salón de confianza<br/>en San Blas-Canillejas</h2>
+          <p>En Cheveux encontrarás un espacio donde el bienestar y la belleza se unen. Nuestro equipo de profesionales cuida cada detalle para que salgas sintiéndote exactamente como quieres.</p>
+          <p>Situados en el corazón de San Blas-Canillejas, llevamos años acompañando a nuestros clientes en su imagen personal con dedicación y técnica de calidad.</p>
+        </div>
+        <div class="intro__images reveal reveal--right">
+          <div class="img-block img-block--1">
+            <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=800&q=80" alt="Peluquera trabajando" class="img-cover" />
+          </div>
+          <div class="img-block img-block--2">
+            <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=800&q=80" alt="Interior del salón" class="img-cover" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios section section--dark" id="servicios">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="label label--light">Lo que ofrecemos</span>
+        <h2>Nuestros servicios</h2>
+      </div>
+      <div class="servicios__grid">
+
+        <div class="servicio-card reveal">
+          <div class="servicio-card__icon">✂️</div>
+          <h3>Peluquería</h3>
+          <ul>
+            <li>Corte de cabello</li>
+            <li>Tinte & mechas</li>
+            <li>Balayage & ombré</li>
+            <li>Tratamientos capilares</li>
+            <li>Peinados & recogidos</li>
+            <li>Alisados & permanentes</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card reveal">
+          <div class="servicio-card__icon">💅</div>
+          <h3>Manicura</h3>
+          <ul>
+            <li>Manicura clásica</li>
+            <li>Esmalte semipermanente</li>
+            <li>Uñas de gel</li>
+            <li>Nail art</li>
+            <li>Reparación de uñas</li>
+            <li>Manicura spa</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card reveal">
+          <div class="servicio-card__icon">🦶</div>
+          <h3>Pedicura</h3>
+          <ul>
+            <li>Pedicura clásica</li>
+            <li>Esmalte semipermanente</li>
+            <li>Pedicura spa</li>
+            <li>Tratamiento de durezas</li>
+            <li>Exfoliación</li>
+            <li>Hidratación profunda</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PARALLAX BANNER -->
+  <div class="parallax-banner">
+    <div class="parallax-banner__inner">
+      <p class="parallax-banner__text">"Tu imagen, nuestra pasión"</p>
+    </div>
+  </div>
+
+  <!-- PRECIOS -->
+  <section class="precios section" id="precios">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="label">Tarifas</span>
+        <h2>Precios</h2>
+        <p class="section__desc">Precios orientativos. Consulta sin compromiso.</p>
+      </div>
+      <div class="precios__tabs">
+        <button class="tab active" data-tab="peluqueria">Peluquería</button>
+        <button class="tab" data-tab="manicura">Manicura</button>
+        <button class="tab" data-tab="pedicura">Pedicura</button>
+      </div>
+
+      <div class="precios__panel active reveal" id="tab-peluqueria">
+        <div class="precio-lista">
+          <div class="precio-item"><span>Corte mujer</span><span>18 €</span></div>
+          <div class="precio-item"><span>Corte hombre</span><span>12 €</span></div>
+          <div class="precio-item"><span>Corte + secado</span><span>25 €</span></div>
+          <div class="precio-item"><span>Tinte completo</span><span>desde 35 €</span></div>
+          <div class="precio-item"><span>Mechas / Balayage</span><span>desde 45 €</span></div>
+          <div class="precio-item"><span>Peinado / recogido</span><span>desde 20 €</span></div>
+          <div class="precio-item"><span>Tratamiento keratina</span><span>desde 60 €</span></div>
+          <div class="precio-item"><span>Permanente</span><span>desde 40 €</span></div>
+        </div>
+      </div>
+
+      <div class="precios__panel reveal" id="tab-manicura">
+        <div class="precio-lista">
+          <div class="precio-item"><span>Manicura clásica</span><span>12 €</span></div>
+          <div class="precio-item"><span>Esmalte semipermanente</span><span>20 €</span></div>
+          <div class="precio-item"><span>Uñas de gel</span><span>35 €</span></div>
+          <div class="precio-item"><span>Nail art (diseño)</span><span>desde 5 €</span></div>
+          <div class="precio-item"><span>Manicura spa</span><span>25 €</span></div>
+          <div class="precio-item"><span>Retirada de gel/semi</span><span>8 €</span></div>
+        </div>
+      </div>
+
+      <div class="precios__panel reveal" id="tab-pedicura">
+        <div class="precio-lista">
+          <div class="precio-item"><span>Pedicura clásica</span><span>18 €</span></div>
+          <div class="precio-item"><span>Esmalte semipermanente</span><span>25 €</span></div>
+          <div class="precio-item"><span>Pedicura spa</span><span>30 €</span></div>
+          <div class="precio-item"><span>Tratamiento durezas</span><span>15 €</span></div>
+          <div class="precio-item"><span>Exfoliación + hidratación</span><span>20 €</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA PLACEHOLDER -->
+  <section class="galeria section section--alt">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="label">Nuestro trabajo</span>
+        <h2>Galería</h2>
+      </div>
+      <div class="galeria__grid reveal">
+        <div class="galeria__item galeria__item--tall"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80" alt="Corte de cabello" class="img-cover" /></div>
+        <div class="galeria__item"><img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80" alt="Manicura" class="img-cover" /></div>
+        <div class="galeria__item"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" alt="Color y tinte" class="img-cover" /></div>
+        <div class="galeria__item galeria__item--wide"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900&q=80" alt="Salón de belleza" class="img-cover" /></div>
+        <div class="galeria__item"><img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80" alt="Pedicura" class="img-cover" /></div>
+        <div class="galeria__item"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&q=80" alt="Acabado capilar" class="img-cover" /></div>
+      </div>
+      <p class="galeria__nota reveal">📸 Estas fotos son de ejemplo — cuando tengas las tuyas, reemplázalas fácilmente</p>
+    </div>
+  </section>
+
+  <!-- HORARIO & CONTACTO -->
+  <section class="contacto section" id="contacto">
+    <div class="container">
+      <div class="contacto__grid">
+
+        <div class="horario reveal" id="horario">
+          <span class="label">Cuándo encontrarnos</span>
+          <h2>Horario</h2>
+          <div class="horario__lista">
+            <div class="horario__row"><span>Lunes</span><span>10:00 – 20:00</span></div>
+            <div class="horario__row"><span>Martes</span><span>10:00 – 20:00</span></div>
+            <div class="horario__row"><span>Miércoles</span><span>10:00 – 20:00</span></div>
+            <div class="horario__row"><span>Jueves</span><span>10:00 – 20:00</span></div>
+            <div class="horario__row"><span>Viernes</span><span>10:00 – 20:00</span></div>
+            <div class="horario__row"><span>Sábado</span><span>10:00 – 14:00</span></div>
+            <div class="horario__row horario__row--closed"><span>Domingo</span><span>Cerrado</span></div>
+          </div>
+          <p class="horario__nota">⚠️ El horario puede variar. Llama antes para confirmar.</p>
+        </div>
+
+        <div class="info-contacto reveal reveal--right">
+          <span class="label">Dónde estamos</span>
+          <h2>Contacto</h2>
+
+          <div class="contacto__dato">
+            <div class="contacto__icono">📍</div>
+            <div>
+              <strong>Dirección</strong>
+              <p>C. de Aquitania, 21<br/>San Blas-Canillejas, 28032 Madrid</p>
+            </div>
+          </div>
+
+          <div class="contacto__dato">
+            <div class="contacto__icono">📞</div>
+            <div>
+              <strong>Teléfono</strong>
+              <p><a href="tel:+34911720058">911 72 00 58</a></p>
+            </div>
+          </div>
+
+          <div class="contacto__dato">
+            <div class="contacto__icono">🗺️</div>
+            <div>
+              <strong>Cómo llegar</strong>
+              <p>Barrio de San Blas-Canillejas, Madrid</p>
+              <a href="https://maps.google.com/?q=C.+de+Aquitania+21+San+Blas+Madrid" target="_blank" class="btn btn--outline btn--sm">Ver en Google Maps</a>
+            </div>
+          </div>
+
+          <a href="tel:+34911720058" class="btn btn--primary btn--full">Llamar para reservar</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPA EMBED -->
+  <div class="mapa-wrapper">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5!2d-3.614!3d40.425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zQy4gZGUgQXF1aXRhbmlhIDIxLCBNYWRyaWQ!5e0!3m2!1ses!2ses!4v1"
+      width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade" title="Mapa Cheveux Peluquería">
+    </iframe>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__logo">Cheveux</p>
+      <p class="footer__tagline">Peluquería & Estética · San Blas-Canillejas · Madrid</p>
+      <p class="footer__copy">&copy; 2025 Cheveux Peluquería y Estética · C. de Aquitania, 21, 28032 Madrid</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
