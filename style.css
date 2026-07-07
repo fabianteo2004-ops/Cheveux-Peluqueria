@@ -100,7 +100,11 @@ body {
 }
 @media (max-width: 700px) {
   .bg-aura { animation: none; }
-  .bg-aura__blob { filter: blur(26px); opacity: 0.9; }
+  .bg-aura__blob { filter: blur(55px); opacity: 0.3; }
+  .bg-aura__blob--1 { animation-duration: 32s; }
+  .bg-aura__blob--2 { animation-duration: 36s; }
+  .bg-aura__blob--3 { animation-duration: 30s; }
+  .bg-aura__blob--4 { animation-duration: 34s, 10s; }
 }
 @media (prefers-reduced-motion: reduce) {
   .bg-aura { animation: none; }
@@ -182,8 +186,6 @@ body:not(.has-fine-pointer) .cursor { display: none; }
   line-height: 1.1;
   letter-spacing: -0.01em;
 }
-.section__desc { margin-top: 0.9rem; color: var(--ink-70); font-size: 0.95rem; }
-
 /* ===== BUTTONS ===== */
 .btn {
   display: inline-block;
@@ -317,7 +319,6 @@ body:not(.has-fine-pointer) .cursor { display: none; }
 .mobile-menu a {
   display: inline-flex;
   align-items: baseline;
-  gap: 0.8rem;
   font-family: var(--font-display);
   font-size: 2.4rem;
   font-weight: 400;
@@ -330,7 +331,6 @@ body:not(.has-fine-pointer) .cursor { display: none; }
 .mobile-menu.open li:nth-child(2) a { transition-delay: 110ms; }
 .mobile-menu.open li:nth-child(3) a { transition-delay: 160ms; }
 .mobile-menu.open li:nth-child(4) a { transition-delay: 210ms; }
-.mobile-menu a span { font-family: var(--font-sans); font-size: 0.8rem; color: var(--rust); }
 @media (hover: hover) and (pointer: fine) { .mobile-menu a:hover { color: var(--rust); } }
 .mobile-menu__phone {
   font-size: 0.85rem;
@@ -739,7 +739,6 @@ body:not(.has-fine-pointer) .cursor { display: none; }
 .horario__row:last-child { border-bottom: none; }
 .horario__row--closed { color: var(--ink-50); }
 .horario__row--closed span:last-child { color: var(--rust); font-weight: 500; }
-.horario__nota { font-size: 0.8rem; color: var(--ink-50); line-height: 1.6; }
 
 .contacto__dato { display: flex; gap: 1.3rem; margin-bottom: 1.9rem; align-items: flex-start; }
 .contacto__icono {
