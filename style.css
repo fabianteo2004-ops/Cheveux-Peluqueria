@@ -509,12 +509,6 @@ body:not(.has-fine-pointer) .cursor { display: none; }
   align-items: center;
 }
 .intro__frame { aspect-ratio: 4/5; overflow: hidden; border-radius: 3px; border: 6px solid var(--blue-dark); }
-.intro__note {
-  font-size: 0.78rem;
-  color: var(--ink-50);
-  font-style: italic;
-  margin-top: 0.9rem;
-}
 .intro__text h2 {
   font-family: var(--font-display);
   font-size: clamp(1.9rem, 3.2vw, 2.8rem);
@@ -711,14 +705,6 @@ body:not(.has-fine-pointer) .cursor { display: none; }
 @media (hover: hover) and (pointer: fine) {
   .galeria__item:hover img { transform: scale(1.06); }
 }
-.galeria__nota {
-  text-align: center;
-  margin-top: 2.5rem;
-  font-size: 0.85rem;
-  color: var(--ink-50);
-  font-style: italic;
-}
-
 @media (max-width: 899px) {
   .galeria__sticky { position: static; height: auto; }
   .galeria__track {
